@@ -45,7 +45,7 @@ const Hero = () => {
             words="This is Owen Kujo"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl py-5">
-            I`&apos;`m Owen, Software Developer from Thailand.
+            I&apos;m Owen, Software Developer from Thailand.
           </p>
 
           <a href="#about">

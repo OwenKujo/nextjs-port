@@ -2,7 +2,7 @@
   "name": "nextjs-port",
   "version": "0.1.0",
   "private": true,
-  "homepage": "owenkujo-port.vercel.app",
+  "homepage": "https://owenkujo-port.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -41,7 +41,7 @@ const Hero = () => {
           </h2>
 
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-5xl"
+            className="text-center text-[35px] md:text-5xl lg:text-5xl"
             words="This is Owen Kujo"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl py-5">

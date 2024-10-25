@@ -5,6 +5,7 @@ import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 import { FaArrowPointer } from "react-icons/fa6";
 import { PiNavigationArrowFill } from "react-icons/pi";
+import { AuroraBackground } from "./ui/aurora-background";
 
 const Hero = () => {
   return (

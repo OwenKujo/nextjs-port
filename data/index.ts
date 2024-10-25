@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Techstack", link: "#techstack" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -74,11 +74,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Trendy - Fashion community website",
+    des: "Community website for fashion lover. Connect with people that has the same interest",
+    img: "/Trendy.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://trendfeed.onrender.com/",
   },
   {
     id: 2,
@@ -164,42 +164,36 @@ export const companies = [
     img: "",
     nameImg: "/tensorflow.svg",
   },
-  {
-    id: 5,
-    name: "clerk",
-    img: "",
-    nameImg: "/clerk.png",
-  },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Backend Developer - Artmosphere",
+    desc: "Develop and test a reusable and scalable backend API of Artmosphere website using NestJS, PostgreSQL and Google Cloud.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/Artmos.jpg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Chief Technology Officer - Cadflow",
+    desc: "Co-founder and CTO. Led the technology team, plan the development process and work sprint, validate the business opportunity and feasibility.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/Cadflow.jpg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Innovation Intern - SCG Digital Office",
+    desc: "In Summonere project, designed and developed a training web-app service (voice bot) for contact center agent performance",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/SCG.jpg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Chatbot Developer Intern - Amity Solutions",
+    desc: "Part of NLQ chatbot project, wrok on few-shots model, data entry. Using SQL and javascrpits",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/amity.jpg",
   },
 ];
 

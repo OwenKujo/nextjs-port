@@ -5,6 +5,8 @@ import { BackgroundGradientAnimation } from "./BackgorundGradientAnimation";
 import { GlobeDemo } from "./gridGlobe";
 import MagicButton from "./MagicButton";
 import { MdTouchApp } from "react-icons/md";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/app/variants";
 
 export const BentoGrid = ({
   className,
@@ -14,14 +16,18 @@ export const BentoGrid = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 75 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.25 }}
+      viewport={{ once: false, amount: 0.2 }}
       className={cn(
         "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
       )}
     >
       {children}
-    </div>
+    </motion.div>
   );
 };
 
@@ -45,7 +51,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   return (
-    <div
+    <motion.div
       className={cn(
         "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.05] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
         className
@@ -148,6 +154,6 @@ export const BentoGridItem = ({
           )}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };

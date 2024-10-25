@@ -29,7 +29,11 @@ export const PinContainer = ({
   };
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: -75 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, delay: 0.25 }}
+      viewport={{ once: false, amount: 0.2 }}
       className={cn(
         "relative group/pin z-50  cursor-pointer",
         containerClassName
@@ -55,7 +59,7 @@ export const PinContainer = ({
         </div>
       </div>
       <PinPerspective title={title} href={href} />
-    </div>
+    </motion.div>
   );
 };
 

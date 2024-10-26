@@ -7,7 +7,14 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-5" id="contact">
+    <motion.footer
+      initial={{ opacity: 0, y: 75 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.25 }}
+      viewport={{ once: false, amount: 0.2 }}
+      className="w-full pt-5"
+      id="contact"
+    >
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
@@ -35,13 +42,7 @@ const Footer = () => {
           Copyright © 2024 Rapeepat Promalt
         </p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 75 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.25 }}
-          viewport={{ once: false, amount: 0.2 }}
-          className="flex items-center md:gap-3 gap-6 mt-6 mb-16"
-        >
+        <motion.div className="flex items-center md:gap-3 gap-6 mt-6 mb-16">
           {socialMedia.map((info) => (
             <a
               key={info.id}
@@ -54,7 +55,7 @@ const Footer = () => {
           ))}
         </motion.div>
       </div>
-    </footer>
+    </motion.footer>
   );
 };
 

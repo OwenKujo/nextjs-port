@@ -1,18 +1,32 @@
-import React from 'react'
+"use client";
 
-const Clients = () => {
+import React from "react";
+
+import { companies, testimonials } from "@/data";
+import { InfiniteMovingCards } from "./ui/InfiniteCards";
+
+const HonorAward = () => {
   return (
-    <div className='py-20' id='projects'>
-        <h1 className='heading'>
-            A section of {' '}
-            <span className='text-blue-300'>
-                my recent projects
-            </span> 
-        </h1>
-        <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
-        </div>
-    </div>
-  )
-}
+    <section id="testimonials" className="py-20">
+      <h1 className="heading">
+        Kind words from
+        <span className="text-blue-300"> satisfied clients</span>
+      </h1>
 
-export default Clients
+      <div className="flex flex-col items-center max-lg:mt-10">
+        <div
+          // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
+          className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
+        >
+          <InfiniteMovingCards
+            items={testimonials}
+            direction="right"
+            speed="slow"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HonorAward;

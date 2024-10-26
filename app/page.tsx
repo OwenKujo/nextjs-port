@@ -5,7 +5,9 @@ import Projects from "@/components/Projects";
 import { navItems } from "@/data";
 import Techstack from "@/components/TechStack";
 import Experience from "@/components/Experience";
-import HonorAward from "@/components/HonorAward";
+import HonorAward from "@/components/Clients";
+import { AppleCardsCarousel } from "@/components/AWHonor";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -17,7 +19,8 @@ export default function Home() {
         <Experience />
         <Techstack />
         <Projects />
-        <HonorAward />
+        <AppleCardsCarousel />
+        <Footer />
       </div>
     </main>
   );

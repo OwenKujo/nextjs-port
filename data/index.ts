@@ -14,7 +14,7 @@ export const gridItems = [
       "text-shadow lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] ",
     imgClassName: "lg:w-full lg:h-full",
     titleClassName: "justify-end",
-    img: "/owen2.png",
+    img: "/owen4.png",
     spareImg: "",
   },
   {
@@ -198,13 +198,26 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/OwenKujo",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/owenkujo/",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/rapeepat-promlat-a36904261/",
+  },
+  {
+    id: 4,
+    img: "/sptfy.svg",
+    link: "https://open.spotify.com/user/31jgpsiumid3mthxzgtqufspj4fa?si=6d386661ce7f436d",
+  },
+  {
+    id: 5,
+    img: "/fb.svg",
+    link: "https://www.facebook.com/profile.php?id=100002343503711",
   },
 ];

@@ -63,7 +63,7 @@ const Techstack = () => {
         >
           {TechStackicons.map((skill, index) => (
             <motion.div
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 0.95 }}
               whileTap={{ scale: 0.9 }}
               key={index}
               className="h-[160px] w-[150px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center

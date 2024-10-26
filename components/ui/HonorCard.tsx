@@ -15,8 +15,9 @@ export const ATUnet = () => {
                 The Winner in the International Datahack for sustainability by
                 ATU-Net: Asia Technological University Network
               </span>{" "}
-              My tem, BCDT did the project called 24 hours hostel. It's the 24
-              hours self-reception service for hostles around Ladkrabang Area.
+              My tem, BCDT did the project called 24 hours hostel. It&apos;s the
+              24 hours self-reception service for hostles around Ladkrabang
+              Area.
             </p>
             <Image
               src="/ATU.jpg"
@@ -209,9 +210,9 @@ export const YTP = () => {
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
                 1st runner-up and Best innovation in SCG Young Talent Program
-                2024 Hell Day's hackathon by SCG Digital Office.
+                2024 Hell Day&apos;s hackathon by SCG Digital Office.
               </span>{" "}
-              My team did the project called WeRun, it's the smart running
+              My team did the project called WeRun, it&apos;s the smart running
               glasses to connect user with thier running or exercise friends
               from anywhere without the need of travel.
             </p>
@@ -259,8 +260,8 @@ export const GillHack = () => {
               </span>{" "}
               Team PTY with Trendy project, gone through more than 300 teams in
               the screening round,to be one of the 15 teams and make it through
-              to the final pitching round of 6 teams. Despite we didn't get any
-              award, it's a great experience in every way.
+              to the final pitching round of 6 teams. Despite we didn&apos;t get
+              any award, it&apos;s a great experience in every way.
             </p>
             <Image
               src="/GillCert.jpg"

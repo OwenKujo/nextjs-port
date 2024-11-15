@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-24 md:flex-row flex-col justify-between items-center mb-16">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Rapeepat Promalt
+          Copyright © 2024 Rapeepat Promlat
         </p>
 
         <motion.div className="flex items-center md:gap-3 gap-6 mt-6 mb-16">

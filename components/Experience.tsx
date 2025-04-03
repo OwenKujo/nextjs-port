@@ -70,7 +70,7 @@ const Experience = () => {
           <MagicButton
             title="Download my CV"
             icon={<PiNavigationArrowFill />}
-            link="https://drive.google.com/file/d/1xX7aZFOrCl5ri9g3Jipdv6aSaFT8_BTG/view?usp=sharing"
+            link="https://drive.google.com/file/d/1au9qjxn_XieV5k8SvPkPNX-nz1uAnkRR/view?usp=sharing"
             position="right"
           />
         </a>

@@ -78,7 +78,7 @@ export const projects = [
     id: 1,
     title: "Trendy - Fashion community website",
     des: "Community website for fashion lover. Connect with people that has the same interest",
-    img: "/trendyfeed.png",
+    img: "/trendfeed1.png",
     iconLists: [
       "/vitejs.svg",
       "/tail.svg",
@@ -175,10 +175,10 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Chief Technology Officer - Cadflow",
-    desc: "Co-founder and CTO. Led the technology team, plan the development process and work sprint, validate the business opportunity and feasibility.",
+    title: "Full Stack Developer - Moradok",
+    desc: "Led design and development for Moradok forum platform, such as software architect design, fullstack development, database system design and provide other tools for team",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/Cadflow.jpg",
+    thumbnail: "/moradok.jpg",
   },
   {
     id: 3,

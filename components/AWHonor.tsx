@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 import {
+  SSPI,
   AriMeta,
   ATUnet,
   GillHack,
@@ -35,6 +36,12 @@ export function AppleCardsCarousel() {
 }
 
 const data = [
+  {
+    category: "SSPI Hackathon 2024 by Science Thammasat U.",
+    title: "The Winner",
+    src: "/sspibig.png",
+    content: <SSPI />,
+  },
   {
     category: "Datahack 2023 by ATU-NET",
     title: "The Winner",

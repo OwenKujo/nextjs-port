@@ -1,6 +1,59 @@
 import React from "react";
 import Image from "next/image";
 
+export const SSPI = () => {
+  return (
+    <>
+      {[...new Array(1).fill(1)].map((_, index) => {
+        return (
+          <div
+            key={"content2" + index}
+            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+          >
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+              <span className="font-bold text-neutral-700 dark:text-neutral-200">
+                The Winner in the International Datahack for sustainability by
+                ATU-Net: Asia Technological University Network
+              </span>{" "}
+              My team, BCDT did the project called 24 hours hostel. It&apos;s the
+              24 hours self-reception service for hostles around Ladkrabang
+              Area.
+            </p>
+            <Image
+              src=""
+              alt="ATU"
+              height="500"
+              width="500"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-10 mb-4 rounded-3xl flex"
+            />
+            <Image
+              src=""
+              alt="sspi"
+              height="500"
+              width="500"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4 mb-4 rounded-3xl"
+            />
+            <Image
+              src=""
+              alt="sspi"
+              height="500"
+              width="500"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4 mb-4 rounded-3xl"
+            />
+            <Image
+              src=""
+              alt="sspi"
+              height="500"
+              width="500"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4 mb-4 rounded-3xl"
+            />
+          </div>
+        );
+      })}
+    </>
+  );
+};
+
 export const ATUnet = () => {
   return (
     <>
@@ -15,12 +68,12 @@ export const ATUnet = () => {
                 The Winner in the International Datahack for sustainability by
                 ATU-Net: Asia Technological University Network
               </span>{" "}
-              My tem, BCDT did the project called 24 hours hostel. It&apos;s the
+              My team, BCDT did the project called 24 hours hostel. It&apos;s the
               24 hours self-reception service for hostles around Ladkrabang
               Area.
             </p>
             <Image
-              src="/ATU.jpg"
+              src="/ATU1.jpg"
               alt="ATU"
               height="500"
               width="500"

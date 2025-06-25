@@ -194,7 +194,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Backend Developer - AscendGroup(Eden Art Studio)",
-    desc: "Led design and development for Moradok forum platform, such as software architect design, fullstack development, database system design and provide other tools for team",
+    desc: "Develop scalable and efficient backend APIs for service in SOS project such as, back office, LINE LIFF and LINE OA",
     className: "md:col-span-2", 
     thumbnail: "/Ascend.jpg",
     link: "https://ascendgroup.asia/?fbclid=IwY2xjawLIoTRleHRuA2FlbQIxMABicmlkETFOenBHOEY3SG1YZFRlS0J0AR5OdpoZPDWcTkevSMHbJAhOB2HHwjiF5d4lUJvZYX_Sg4-Ge7B7W6H5dZYckw_aem_cSt-AZtvzPZR01APOzAQVQ",

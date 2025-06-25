@@ -52,7 +52,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Backend developer and a co-founder in a new born Martech start-up",
+    title: "Backend developer and a co-founder in a new born start-up",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "lg:w-full lg:h-full absolute right-0 bottom-0 opacity-55",

@@ -90,18 +90,43 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Summonere - Contact center training bot",
-    des: "Training voice bot for training center.Using RAG technique with GPT4o, speech-to-text and tex-to-speech.",
-    img: "/Summonerebot.png",
+    title: "InScene - Travel in Thailand",
+    des: "Platform to help people travel to the same place and have a lifestyle similar to that in the Thai series and film scene, also build a community for people with the same interests.",
+    img: "/inscene.png",
     iconLists: [
-      "/vitejs.svg",
+      "/wnext.svg",
+      "/NestJS.svg",
       "/tail.svg",
       "/ts.svg",
-      "/fastapi-1.svg",
-      "/chatgpt-icon.svg",
-      "/ggc.png",
+      "/cloudinary-2.svg",
+      "/pwa.svg"
     ],
-    link: "https://github.com/OwenKujo/Summonere",
+    link: "https://inscenceapp.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "Homiq - Smarter Home Loans Start Here.",
+    des: "A smart financial planning platform that helps you get home-ready. Automatically analyzes income, debt, and spending to plan your best repayment strategy. Simulates flexible loan scenarios, sets goals, and prevents missed payments with smart alerts.",
+    img: "/homiq.png",
+    iconLists: [
+      "/wnext.svg",
+      "/NestJS.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/tensorflow.svg",
+      "/pwa.svg"
+    ],
+    link: "coming soon...",
+  },
+  {
+    id: 4,
+    title: "Coming soon ...",
+    des: "",
+    img: "",
+    iconLists: [
+    
+    ],
+    link: "coming soon...",
   },
 ];
 

@@ -23,33 +23,29 @@ const Experience = () => {
         className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10"
       >
         {workExperience.map((card) => (
-          <a
+          <Button
             key={card.id}
-            href={card.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ textDecoration: 'none' }}
+            duration={Math.floor(Math.random() * 10000) + 10000}
+            borderRadius="1.75rem"
+            style={{
+              background: "rgb(4,7,29)",
+              backgroundColor:
+                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              borderRadius: `calc(1.75rem* 0.96)`,
+            }}
+            className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-            <Button
-              //   random duration will be fun , I think , may be not
-              duration={Math.floor(Math.random() * 10000) + 10000}
-              borderRadius="1.75rem"
-              style={{
-                //   add these two
-                //   you can generate the color from here https://cssgradient.io/
-                background: "rgb(4,7,29)",
-                backgroundColor:
-                  "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-                // add this border radius to make it more rounded so that the moving border is more realistic
-                borderRadius: `calc(1.75rem* 0.96)`,
-              }}
-              // remove bg-white dark:bg-slate-900
-              className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2"
             >
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2"
+              <a
+                href={card.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none' }}
+                className="flex lg:flex-row flex-col lg:items-center gap-2"
               >
                 <img
                   src={card.thumbnail}
@@ -64,9 +60,9 @@ const Experience = () => {
                     {card.desc}
                   </p>
                 </div>
-              </motion.div>
-            </Button>
-          </a>
+              </a>
+            </motion.div>
+          </Button>
         ))}
       </motion.div>
       <motion.div
@@ -77,7 +73,7 @@ const Experience = () => {
           <MagicButton
             title="Download my CV"
             icon={<PiNavigationArrowFill />}
-            link="https://drive.google.com/file/d/1au9qjxn_XieV5k8SvPkPNX-nz1uAnkRR/view?usp=sharing"
+            link="https://drive.google.com/file/d/18D_eqa_7t1r5NLWHX0_lLdbk77lw6UJ0/view?usp=sharing"
             position="right"
           />
         </a>

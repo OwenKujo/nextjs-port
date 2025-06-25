@@ -193,7 +193,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Backend Developer - AscendGroup",
+    title: "Backend Developer - AscendGroup(Eden Art Studio)",
     desc: "Led design and development for Moradok forum platform, such as software architect design, fullstack development, database system design and provide other tools for team",
     className: "md:col-span-2", 
     thumbnail: "/Ascend.jpg",

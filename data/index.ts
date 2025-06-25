@@ -168,24 +168,27 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "Backend Developer - AscendGroup",
+    desc: "Led design and development for Moradok forum platform, such as software architect design, fullstack development, database system design and provide other tools for team",
+    className: "md:col-span-2", 
+    thumbnail: "/Ascend.jpg",
+    link: "https://ascendgroup.asia/?fbclid=IwY2xjawLIoTRleHRuA2FlbQIxMABicmlkETFOenBHOEY3SG1YZFRlS0J0AR5OdpoZPDWcTkevSMHbJAhOB2HHwjiF5d4lUJvZYX_Sg4-Ge7B7W6H5dZYckw_aem_cSt-AZtvzPZR01APOzAQVQ",
+  },
+  {
+    id: 2,
     title: "Backend Developer - Artmosphere",
     desc: "Develop and test a reusable and scalable backend API of Artmosphere website using NestJS, PostgreSQL and Google Cloud.",
     className: "md:col-span-2",
     thumbnail: "/Artmos.jpg",
-  },
-  {
-    id: 2,
-    title: "Full Stack Developer - Moradok",
-    desc: "Led design and development for Moradok forum platform, such as software architect design, fullstack development, database system design and provide other tools for team",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/moradok.jpg",
+    link: "https://artmosphere.cloud/en",
   },
   {
     id: 3,
     title: "Innovation Intern - SCG Digital Office",
     desc: "In Summonere project, designed and developed a training web-app service (voice bot) for contact center agent performance",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/SCG.jpg",
+    thumbnail: "/wedo.jpg",
+    link: "https://www.scgdigital.tech/",
   },
   {
     id: 4,
@@ -193,6 +196,7 @@ export const workExperience = [
     desc: "Part of NLQ chatbot project, wrok on few-shots model, data entry. Using SQL and javascrpits",
     className: "md:col-span-2",
     thumbnail: "/amity.jpg",
+    link: "https://www.amitysolutions.com/th",
   },
 ];
 
